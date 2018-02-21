@@ -1,4 +1,4 @@
-module.exports = function check(str, bracketsConfig) {
+module.exports = function check(str, brack) {
   var arr = str.split('');
   if (arr.length % 2) return false;
   outer: for (var i = 0; i < arr.length; i++) {
